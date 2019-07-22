@@ -7,45 +7,80 @@
         <title>Polunychka-home-page</title>
     </head>
     <body>
-        <h1>Ukrainian Folk Dance Stusio 'Polunychka'</h1>
-        <img src="img/strawberry-logo.jpg" alt="Starwberry logo drawn in style 'Mamo, ya malyuyu'">
-        <nav>
-            <a href="about-us.html">about us</a>
-        </nav>
-        <nav>
-            <a href="announcements.html">announcements</a>
-        </nav>
-        <nav>
-            <a href="schedule.html">schedule</a>
-        </nav>
-        <nav>
-            <a href="gallery.html">gallery</a>
-        </nav>
-        <nav>
-            <a href="contact-us.html">contact us</a>
-        </nav>
-        <img src="img/krok-do-zirok-contest.jpg" alt="Children in pairs dressed in national costumes dancing Ukrainian folk dance 'Hopak'on the stage of 'Krok do zirok' contest">
+        <div id="at-a-glance">
+            <h1>Ukrainian Folk Dance Stusio 'Polunychka'</h1>
+            <img src="img/strawberry-logo.jpg" alt="Starwberry logo drawn in style 'Mamo, ya malyuyu'">
+            <div id="menu">
+                <nav>
+                    <a href="#anchor">about us</a>
+                </nav>
+                <nav>
+                    <a href="announcements.html">announcements</a>
+                </nav>
+                <nav>
+                    <a href="schedule.html">schedule</a>
+                </nav>
+                <nav>
+                    <a href="gallery.html">gallery</a>
+                </nav>
+                <nav>
+                    <a href="#anchor-for-contact-us">contact us</a>
+                </nav>
+            </div>
+        </div>
+        <div id="slider">
+            <img src="img/krok-do-zirok-contest.jpg" alt="Children in pairs dressed in national costumes dancing Ukrainian folk dance 'Hopak'on the stage of 'Krok do zirok' contest">
+        </div>
         <p>Do you want your child to reconnect with their Ukrainian origins? Do you want to pull your child away from the tablet or a smartphone and get them physically active? Do you want your child to gain confidence? Join us!</p>
-        <h2>about us</h2>
-        <img src="img/truskavets.jpg" alt="Children in pairs dressed in national costumes standing on the stage in lines lifting up their hands">
-        <p>Ukrainian Folk Dance Studio 'Polunychka' was established in September 1993. 'Polunychka' consists of more than 400 members at various ages and levels of dance skills (from professional dancers to beginners).</p>
-        <h2>discovering the world</h2>
-        <img src="img/lloret-de-mar-festival.jpg" alt="Children dancing Ukrainian folk dance Cherevychky on the stage of Lloret de Mar festival">
-        <p>We are proud ambassadors of Ukrainian folklore all over the world and we promote the wealth of Ukrainian culture to all nationalities.</p>
-        <h2>classes</h2>
-        <img src="img/tocati.jpg" alt="Children in pairs dressed in national costumes standing on stage grouped in one column">
-        <p>Our unique Ukrainian folk dance group has recently created a Junior section to share the beauty of traditional Ukrainian dances with younger generations. The group’s program includes national, regional dances and selected regional folk songs.</p>
+        <div class="general">
+            <h2 id="anchor">about us</h2>
+            <img src="img/truskavets.jpg" alt="Children in pairs dressed in national costumes standing on the stage in lines lifting up their hands">
+            <p>Ukrainian Folk Dance Studio 'Polunychka' was established in September 1993. 'Polunychka' consists of more than 400 members at various ages and levels of dance skills (from professional dancers to beginners).</p>
+        </div>
+        <div class="general">
+            <h2>discovering the world</h2>
+            <img src="img/lloret-de-mar-festival.jpg" alt="Children dancing Ukrainian folk dance Cherevychky on the stage of Lloret de Mar festival">
+            <p>We are proud ambassadors of Ukrainian folklore all over the world and we promote the wealth of Ukrainian culture to all nationalities.</p>
+        </div>
+        <div class="general">
+            <h2>classes</h2>
+            <img src="img/tocati.jpg" alt="Children in pairs dressed in national costumes standing on stage grouped in one column">
+            <p>Our unique Ukrainian folk dance group has recently created a Junior section to share the beauty of traditional Ukrainian dances with younger generations. The group’s program includes national, regional dances and selected regional folk songs.</p>
+        </div>
+        <div id="pink">
+            <h3>reach us</h3>
+            <p>
+                Chornovola avenue, 06<br>Lviv 79058
+            </p>
+            <div id="map">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4295.358088976822!2d24.02027228825579!3d49.85104811615175!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x473add0b93b93b3f%3A0x58bd3a5c118bf060!2z0KjQutC-0LvQsCDihJY1Mw!5e0!3m2!1suk!2sua!4v1563752358948!5m2!1suk!2sua" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+            </div>
+            <h3 id="anchor-for-contact-us">contact us</h3>
+            <form>
+                <div>
+                    <label for="your_name">your name:</label>
+                    <input type="text" id="your_name" name="user_name" placeholder="your name">
+                </div>
+                <div>
+                    <label for="email">email:</label>
+                    <input type="text" id="email" name="user_email" placeholder="email">
+                </div>
+                <div>
+                    <label for="msg">message</label>
+                    <textarea id="msg" name="user_message"></textarea>
+                </div>
+            </form>
+        </div>
         <footer>
             <img src="img/strawberry-logo.jpg" alt="Starwberry logo drawn in style 'Mamo, ya malyuyu'">
             <img src="img/youtube-logo.png" alt="Youtube icon">
             <img src="img/facebook-logo.png" alt="Facebook icon">
             <img src="img/insta-logo.png" alt="Instagram icon">
-            <h3>Polunychka, all rights reserved 2019</h3>
+            <h4>Polunychka, all rights reserved 2019</h4>
             <p>
                 polunychka@gmail.com<br>
                 +38 096 123 45 66<br>+38 063 123 45 66
             </p>
         </footer>
-        <img src="img/map.png" alt="Chornovola avenue, 6 location indicated on the map">
     </body>
 </html>
