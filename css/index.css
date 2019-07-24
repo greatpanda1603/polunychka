@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css?family=Anaheim|Nothing+You+Could+Do&display=swap');
+
+:root {
+    --main-color: black;
+    --supplementary-color: white;
+    font-family: 'Anaheim', sans-serif;
+    scroll-behavior: smooth;
+}
+
+#logo {
+    width: 10%;
+    float: left;
+}
+
+header img {
+    display: block;
+    width: 100%;
+}
+
+header .menu {
+    display: flex;
+    list-style-type: none;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin: 0;
+}
+
+header .menu a {
+    color: var(--main-color);
+    text-decoration: none;
+    font-family: 'Nothing You Could Do', cursive;
+    font-size: 1rem;
+    padding: 5px;
+}
+
+header .menu a:hover {
+    background: var(--main-color);
+    color: var(--supplementary-color);
+    padding: 5px;
+}
+
+header h1 {
+    font-family: 'Nothing You Could Do', cursive;
+    font-size: 3rem;
+    text-align: center;
+    color: var(--main-color);
+    display: flex;
+    align-items: flex-start;
+}
+
+.general img {
+    display: block;
+    width: 100%;
+}
+
+h2 {
+    font-family: 'Nothing You Could Do', cursive;
+    font-size: 2rem;
+    color: var(--main-color);
+}
+
+h3 {
+    font-family: 'Nothing You Could Do', cursive;
+    font-size: 1.5rem;
+    color: var(--main-color);
+}
+
+h4 {
+    font-family: 'Nothing You Could Do', cursive;
+    font-size: 1rem;
+    color: var(--main-color);
+}
