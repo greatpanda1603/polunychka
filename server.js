@@ -1,3 +1,7 @@
+// Usage:
+// 1. Install dependencies: npm i express body-parser
+// 2. Run: node server.js
+
 const express = require('express');
 const bodyParser = require('body-parser');
 const path = require('path');
@@ -8,7 +12,7 @@ app.use(express.static(path.resolve(__dirname, './')));
 
 app.post('/sendMessage', (req, res) => {
   const fs = require('fs');
-  fs.appendFile('./sendMessages.txt', JSON.stringify(req.body) + '\n', function(err) {
+  fs.appendFile('./receivedMessages.txt', JSON.stringify(req.body) + '\n', function(err) {
     if (err) {
       res.status(500).send('Server error');
       return console.log(err);
