@@ -7,9 +7,14 @@
     scroll-behavior: smooth;
 }
 
+body {
+    max-width: 980px;
+    margin: auto;
+}
+
 #logo {
-    width: 10%;
     float: left;
+    width: 10%;
 }
 
 header img {
@@ -17,12 +22,12 @@ header img {
     width: 100%;
 }
 
-header .menu {
+header .nav-item {
     display: flex;
+    align-items: center;
     list-style-type: none;
     justify-content: space-around;
     flex-wrap: wrap;
-    margin: 0;
 }
 
 header .menu a {

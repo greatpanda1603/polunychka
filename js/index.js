@@ -11,7 +11,7 @@ function sendMessage(e) {
         body: JSON.stringify({
             name: document.querySelector('.contact-us input[name=user_name]').value,
             email: document.querySelector('.contact-us input[name=user_email]').value,
-            message: document.querySelector('.contact-us input[name=user_message]').value
+            message: document.querySelector('.contact-us textarea[name=user_message]').value
             })
     })
         .then(_ => document.querySelector('.contact-us').reset());

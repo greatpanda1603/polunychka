@@ -1,20 +1,46 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <meta http-equiv="X-UA-Compatible" content="ie=edge">
-        <title>Polunychka-home-page</title>
-        <link rel="stylesheet" href="css/index.css">
-    </head>
-    <body>
-        <header>
-            <nav>
-                <img src="img/strawberry-logo.jpg" alt="Starwberry logo drawn in style 'Mamo, ya malyuyu'" id="logo">
-                <ul class="menu">
-                    <li>
-                        <a href="#anchor">about us</a>
-                    </li>
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>Polunychka-home-page</title>
+	<link rel="shortcut icon" type="image/jpg" href="img/strawberry-logo.jpg">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+	<link rel="stylesheet" href="css/index.css">
+</head>
+
+<body>
+    <header class="container">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <a class="navbar-brand" href="#">
+    <img src="img/strawberry-logo.jpg" width="30" height="30" alt="Starwberry logo drawn in style 'Mamo, ya malyuyu'">
+  </a>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item">
+        <a class="nav-link" href="#anchor">about us</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="announcements.html">announcements</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="schedule.html">schedule</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="gallery.html">gallery</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#anchor-for-contact-us">contact us</a>
+      </li>
+      </ul>
+      </div>
+</header>
+
+
+
+<ul class="menu">
                     <li>
                         <a href="#anchor">about us</a>
                     </li>
@@ -32,11 +58,20 @@
                     </li>
                 </ul>
             </nav>
+
+
+
+
+
+
+
+
             <div class="banner">
                 <h1>Ukrainian Folk Dance Studio 'Polunychka'</h1>
                 <img src="img/krok-do-zirok-contest.jpg" alt="Children in pairs dressed in national costumes dancing Ukrainian folk dance 'Hopak'on the stage of 'Krok do zirok' contest">
             </div>
-        </header>
+
+        <main class="container">
         <p>Do you want your child to reconnect with Ukrainian origins? Do you want to pull your child away from tablet or smartphone and get him / her physically active? Do you want your child to gain confidence? Join us!</p>
         <div class="general">
             <h2 id="anchor">about us</h2>
@@ -54,7 +89,7 @@
             <p>Our unique Ukrainian folk dance group has recently created a Junior section to share the beauty of traditional Ukrainian dances with younger generations. The group’s program includes both national and regional dances.</p>
         </div>
         <div id="pink">
-            <h3>reach us</h3>
+                   <h3>reach us</h3>
             <p>
                 Chornovola avenue, 06<br>Lviv 79058
             </p>
@@ -73,11 +108,12 @@
                 </div>
                 <div>
                     <label for="msg">message</label>
-                    <input type="text" id="msg" name="user_message" placeholder="message">
+                    <textarea id="msg" name="user_message" placeholder="message"></textarea>
                 </div>
                 <input type="submit">
             </form>
         </div>
+        </main>
         <footer>
             <img src="img/strawberry-logo.jpg" alt="Starwberry logo drawn in style 'Mamo, ya malyuyu'">
             <img src="img/youtube-logo.png" alt="Youtube icon">
@@ -89,7 +125,13 @@
                 +38 096 123 45 66<br>+38 063 123 45 66
             </p>
         </footer>
+        </div>
         <script src=js/index.js></script>
-        <textarea id="msg" name="user_message" placeholder="message"></textarea>
+        <script
+  src="https://code.jquery.com/jquery-3.4.1.min.js"
+  integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+  crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
     </body>
 </html>
