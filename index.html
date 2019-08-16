@@ -95,36 +95,39 @@
             </div>
         </main>
         <div class="jumbotron jumbotron-fluid" id="pink">
-            <div class="container">
-                <div>
-                    <h3>reach us</h3>
-                    <p>
-                        Chornovola avenue, 06<br>Lviv 79058
-
-                    </p>
-                    <div id="map">
-                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4295.358088976822!2d24.02027228825579!3d49.85104811615175!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x473add0b93b93b3f%3A0x58bd3a5c118bf060!2z0KjQutC-0LvQsCDihJY1Mw!5e0!3m2!1suk!2sua!4v1563752358948!5m2!1suk!2sua" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
-                    </div>
+            <div class="pink-container">
+                <div class="jumbotron-left">
                     <div>
-                        <h3 id="anchor-for-contact-us">contact us</h3>
-                        <form class="contact-us">
-                            <div class="form-group">
-                                <label for="your_name">your name:</label>
-                                <input type="text" class="form-control" id="your_name" name="user_name" placeholder="enter your name">
-                            </div>
-                            <div class="form-group">
-                                <label for="email">email:</label>
-                                <input type="email" class="form-control" id="email" name="user_email" placeholder="enter your email">
-                            </div>
-                            <div class="form-group">
-                                <label for="msg">message:</label>
-                                <textarea class="form-control" id="msg" name="user_message" rows="6" cols="70"></textarea>
-                            </div>
-                            <div id="send-button">
-                                <input type="submit" class="btn btn-danger" id="this-send-button" value="Send">
-                            </div>
-                        </form>
+                        <h3>reach us</h3>
+                        <div>
+                            <p class="address">
+                                Chornovola avenue, 06<br>Lviv 79058
+                            </p>
+                        </div>
                     </div>
+                    <div id="map">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4295.358088976822!2d24.02027228825579!3d49.85104811615175!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x473add0b93b93b3f%3A0x58bd3a5c118bf060!2z0KjQutC-0LvQsCDihJY1Mw!5e0!3m2!1suk!2sua!4v1563752358948!5m2!1suk!2sua" allowfullscreen></iframe>
+                    </div>
+                </div>
+                <div class="jumbotron-right">
+                    <h3 id="anchor-for-contact-us">contact us</h3>
+                    <form class="contact-us">
+                        <div class="form-group">
+                            <label for="your_name">your name:</label>
+                            <input type="text" class="form-control" id="your_name" name="user_name" placeholder="enter your name">
+                        </div>
+                        <div class="form-group">
+                            <label for="email">email:</label>
+                            <input type="email" class="form-control" id="email" name="user_email" placeholder="enter your email">
+                        </div>
+                        <div class="form-group">
+                            <label for="msg">message:</label>
+                            <textarea class="form-control" id="msg" name="user_message" rows="6" cols="70"></textarea>
+                        </div>
+                        <div id="send-button">
+                            <input type="submit" class="btn btn-danger" id="this-send-button" value="Send">
+                        </div>
+                    </form>
                 </div>
             </div>
         </div>
@@ -136,10 +139,9 @@
                 <img src="img/social-media-icons.png" alt="Social media icons">
             </div>
             <h4>Polunychka, all rights reserved 2019</h4>
-            <p>
+            <p class="footer">
                 polunychka@gmail.com<br>
                 +38 096 123 45 66<br>+38 063 123 45 66
-
             </p>
         </footer>
         <script src=js/index.js></script>

@@ -1,6 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Anaheim|Nothing+You+Could+Do&display=swap');
-
-:root {
+@import url('https://fonts.googleapis.com/css?family=Anaheim|Nothing+You+Could+Do&display=swap'); :root {
     --main-color: black;
     --supplementary-color: white;
     font-family: 'Anaheim', sans-serif;
@@ -26,6 +24,7 @@ header img {
     font-family: 'Nothing You Could Do', cursive;
     font-size: 1.2rem;
     font-weight: bold;
+    margin: 0px 10px 0px 10px;
     padding: 5px;
 }
 
@@ -56,13 +55,13 @@ h1 {
     grid-template-columns: 1fr 1fr 1fr;
 }
 
-p {
+p.question {
     text-align: center;
     margin-top: 2rem;
     margin-bottom: 2rem;
     margin-left: 0.5rem;
     margin-right: 0.5rem;
-    }
+}
 
 p.card-text {
     text-align: left;
@@ -88,8 +87,47 @@ p.card-text {
     }
 }
 
+.pink-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+@media (min-width: 660px) {
+    .pink-container {
+        grid-template-columns: 1fr;
+    }
+}
+
+@media (min-width: 980px) {
+    .pink-container {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
 #pink {
     background-color: lightcoral;
+}
+
+.jumbotron-left {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.jumbotron-right {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+iframe {
+    height: 250px;
+    width: 300px;
+}
+
+form {
+    margin-left: 2rem;
+    margin-right: 2rem;
 }
 
 #send-button {
@@ -102,8 +140,19 @@ p.card-text {
 }
 
 #this-send-button {
-        color: var(--main-color);
-        font-weight: bold;
+    color: var(--main-color);
+    font-weight: bold;
+}
+
+p.address {
+    text-align: center;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+#map {
+    display: flex;
+    justify-content: center;
 }
 
 h2 {
@@ -120,6 +169,7 @@ h3 {
     font-weight: bold;
     color: var(--main-color);
     text-align: center;
+    margin-top: 1rem;
 }
 
 h4 {
@@ -137,7 +187,7 @@ h4 {
 
 .footer-logo img {
     width: 10%;
-  height: auto;
+    height: auto;
 }
 
 .social-media-icons {
@@ -147,5 +197,11 @@ h4 {
 
 .social-media-icons img {
     width: 20%;
-  height: auto;
+    height: auto;
+}
+
+p.footer {
+    text-align: center;
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
 }
